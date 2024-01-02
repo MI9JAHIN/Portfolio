@@ -1,0 +1,150 @@
+body {
+    background-color: #919191;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.top-banner {
+    display: grid;
+    grid-template-columns: 100%;
+    width: auto;
+    height: 74px;
+}
+
+.top-massage {
+    display: flex;
+}
+
+.top-massage ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.top-massage img {
+    width: 100px;
+    height: 56px;
+    flex-shrink: 0;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 900px;
+}
+
+.list li {
+    font-size: 20px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.list li a:hover {
+    color: rgb(0, 238, 255);
+}
+
+.s-banner {
+    display: flex;
+    padding-bottom: 150px;
+
+}
+
+.profile img {
+    width: 611px;
+    height: 611px;
+    flex-shrink: 0;
+    margin-left: 151px;
+    margin-top: 129px;
+}
+
+.text {
+    color: white;
+    margin-top: 180px;
+    margin-left: 40px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+
+.text p {
+    font-weight: 300;
+    width: 800px;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 55px;
+    padding-bottom: 70PX;
+}
+
+.text img {
+    width: 384px;
+    height: 90px;
+    flex-shrink: 0;
+    margin-left: 200PX;
+}
+
+.media img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.facebook img {
+    margin-top: 280px;
+}
+
+
+.t-banner {
+    display: flex;
+    margin: auto;
+}
+
+.t-text p {
+
+    font-weight: 300;
+    width: 900px;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 170px;
+    padding-bottom: 70PX;
+    padding-top: 200px;
+    margin-bottom: 150px;
+}
+
+.t-text a {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-size: 25px;
+    font-weight: 800;
+    background-color: #FDC3C5;
+    padding: 10px 10px;
+    text-align: justify;
+    border-radius: 10px;
+    margin-left: 800px;
+
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+.t-text span {
+    color: white;
+    font-size: 15px;
+}
+
+.t-img img {
+    padding-top: 180px;
+    padding-left: 170px;
+}
